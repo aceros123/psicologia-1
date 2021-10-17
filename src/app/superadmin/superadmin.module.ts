@@ -6,6 +6,7 @@ import { UsuariosComponent } from './pages/usuarios/usuarios.component';
 import { RolesComponent } from './pages/roles/roles.component';
 import { CseguridadComponent } from './pages/cseguridad/cseguridad.component';
 import { SupertadminnRoutesModule } from './supertadminn-routes.module';
+import { PrimengModule } from '../primeng/primeng.module';
 
 
 
@@ -20,6 +21,7 @@ import { SupertadminnRoutesModule } from './supertadminn-routes.module';
   imports: [
     CommonModule,
     SupertadminnRoutesModule,
+    PrimengModule
   ]
 })
 export class SuperadminModule { }
