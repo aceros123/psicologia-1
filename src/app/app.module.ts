@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ErrorpageComponent } from './shared/errorpage/errorpage.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ErrorpageComponent
   ],
   imports: [
     BrowserModule,
